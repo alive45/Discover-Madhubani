@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="./img/leaf.png" sizes="16x16">
+    <link rel="stylesheet" href="css/style.comp.css" />
+    <link rel="stylesheet" href="css/icons-css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600"
+      rel="stylesheet"
+    />
+    <title>Discover Madhubani</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/Breezy/Breezy.mp4" type="video/mp4" />
+          <source src="./img/Breezy/Breezy.webm" type="video/webm" />
+          Browser is not supported
+        </video>
+      </div>
+      <!--
+        <nav class="header__nav">
+
+         <div class="header__nav__icon">
+
+            <i class="fa fa-bars fa-2x"></i>
+
+        </div>
+      -->
+      <!--
+        <div class="header__logo">
+            LOGO
+
+        </div>
+      -->
+
+      <!--
+        <div class="header__nav--box">
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#section-about">Introduction</a></li>
+
+                    <li><a href="#">Trip planner</a></li>
+
+                    <li><a href="#">Gallery</a></li>
+
+                    <li><a href="#">Contact Us</a></li>                
+
+                </ul>
+
+            </div> 
+
+        </nav>
+      -->
+
+      <div class="Box">
+        <nav>
+          <div class="menu-icon"><i class="fa fa-bars fa-4x"></i></div>
+          <div class="menu">
+            <div class="logo"><img src="./img/nav_logo.png" alt="logo" /></div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#intro">Introduction</a></li>
+              <li><a href="#trips">Trip Planner</a></li>
+              <li><a href="#feature">Features</a></li>
+              <li><a href="#gallery-navigation">Gallery</a></li>
+              <li><a href="#foooter">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header__heads">
+        <span class="header__heads--main">Discover</span>
+        <span class="header__heads--sub">Madhubani.</span>
+        <div><a href="#intro" class="header__btn">Start your journey</a></div>
+      </div>
+    </header>
+    <main>
+      <!-- About -->
+      <section id="intro">
+        <div class="about">
+          <div class="row">
+            <div class="col-1-of-2">
+              <div>
+                <img
+                  data-scroll
+                  src="img/Mithila-art.png"
+                  alt="Mithila-art"
+                  class="about__image"
+                />
+              </div>
+            </div>
+            <div class="col-1-of-2">
+              <div class="about__right">
+                <h2 data-scroll class="about__head">
+                  Madhubani, Where "Mithila art" was crafted
+                </h2>
+                <p data-scroll class="about__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptatem odit accusantium porro voluptatibus reprehenderit
+                  sed, nulla, ipsa laudantium maiores numquam alias consectetur
+                  dolorum iusto nisi?
+                </p>
+                <a
+                  data-scroll
+                  href="#trips"
+                  class="btn__normal--info u-margin-right-8"
+                  >Know more / Explore &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trip planner -->
+      <section id="trips">
+        <div class="trip-planner">
+          <div class="row">
+            <h2 data-scroll class="trip-planner__header">
+              Best Trip Plans
+              <p class="trip-planner__para">
+                We have three trip plans for you, choose what best for you.
+              </p>
+            </h2>
+            <div data-scroll class="col-1-of-3">
+              <div class="trip-planner__card">
+                <h1 class="trip-planner__card--head">Basic</h1>
+                <div class="trip-planner__card--features">
+                  <li>1 Person package</li>
+                  <li>2 Places</li>
+                  <li>Free Tiffin</li>
+                  <li>3 Hours each shift</li>
+                  <li>No Vehicle</li>
+                  <li class="trip-planner__card--features--special">
+                    &#8377; 1500
+                  </li>
+                </div>
+                <div class="trip-planner__card--yo">
+                  <a href="#" class="trip-planner__card--book btn__booking"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div data-scroll class="col-1-of-3">
+              <div class="trip-planner__card">
+                <h1 class="trip-planner__card--head2">Standard</h1>
+                <div class="trip-planner__card--features">
+                  <li>3 People package</li>
+                  <li>4 Places</li>
+                  <li>Free Tiffin</li>
+                  <li>5 Hours each shift</li>
+                  <li>Alto 800 for 350 km</li>
+                  <li class="trip-planner__card--features--special">
+                    &#8377; 3500
+                  </li>
+                </div>
+                <div class="trip-planner__card--yo">
+                  <a href="#" class="trip-planner__card--book btn__booking"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div data-scroll class="col-1-of-3">
+              <div class="trip-planner__card">
+                <h1 class="trip-planner__card--head3">Premium</h1>
+                <div class="trip-planner__card--features">
+                  <li>2 People package</li>
+                  <li>Custom Places</li>
+                  <li>Free Tiffin</li>
+                  <li>Custom hours</li>
+                  <li>24 hours XUV</li>
+                  <li class="trip-planner__card--features--special">
+                    &#8377; 15000
+                  </li>
+                </div>
+                <div class="trip-planner__card--yo">
+                  <a href="#" class="trip-planner__card--book btn__booking"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trip planner extra features custom planner section -->
+      <section id="extra-feature">
+        <div data-scroll class="extra-features">
+          <div class="row">
+            <h2 data-scroll class="extra-features__header">
+              Didn't like our plans? No problem make your own today!
+              <p data-scroll class="extra-features__para">
+                We have custom trip planner with lots of available option.
+              </p>
+              <a data-scroll href="#" class="btn__ef">Sign up now </a>
+            </h2>
+          </div>
+        </div>
+      </section>
+      <!-- Feature Sections -->
+      <section id="feature">
+        <div class="features">
+          <div class="row">
+            <h2 data-scroll class="features__header">Features</h2>
+            <div data-scroll class="col-1-of-4">
+              <div class="features__box">
+                <div class="features__icons u-margin-bottom-2">
+                  <i class="fas fa-leaf fa-5x icon-1"></i>
+                </div>
+                <h2 class="features__head u-margin-bottom-2">Explore Nature</h2>
+                <p class="features__para">
+                  Our trip plans are totally set for Nature
+                </p>
+              </div>
+            </div>
+            <div data-scroll class="col-1-of-4">
+              <div class="features__box">
+                <div class="features__icons u-margin-bottom-2">
+                  <i class="fas fa-compass fa-5x icon-2"></i>
+                </div>
+                <h2 class="features__head u-margin-bottom-2">Adventure</h2>
+                <p class="features__para">
+                  You like adventures? What are you waiting for?
+                </p>
+              </div>
+            </div>
+            <div data-scroll class="col-1-of-4">
+              <div class="features__box">
+                <div class="features__icons u-margin-bottom-2">
+                  <i class="fas fa-hand-holding-usd fa-5x icon-3"></i>
+                </div>
+                <h2 class="features__head u-margin-bottom-2">Budget</h2>
+                <p class="features__para">
+                  We know money matters! Don't bother We are here!
+                </p>
+              </div>
+            </div>
+            <div data-scroll class="col-1-of-4">
+              <div class="features__box">
+                <div class="features__icons u-margin-bottom-2">
+                  <i class="fas fa-paint-brush fa-5x icon-4"></i>
+                </div>
+                <h2 class="features__head u-margin-bottom-2">Artworks</h2>
+                <p class="features__para">
+                  You know, the 'Earth' is 'eh' without the word 'art'
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery-navigation">
+        <div class="gallery">
+          <div class="row">
+            <h1 data-scroll class="gallery__head">
+              The Art Gallery
+              <p class="gallery__para">
+                Check out some of the best artworks of Madhubani
+              </p>
+            </h1>
+            <div class="row">
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/1.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p1"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Madhubani Mayur</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Sunita</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/2.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p2"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Radha Krishna</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Ananya</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/3.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p3"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Suriya Dev</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Bikram</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/6.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p4"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Prem</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Divya</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/5.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p5"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Matsha</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Maya</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-1-of-3 gallery__container">
+                <figure class="gallery__composition">
+                  <img
+                    src="./img/ArtFolio/4.jpg"
+                    alt="art_1"
+                    class="gallery__composition--photos gallery__composition--photos--p6"
+                  />
+                  <figcaption class="gallery__composition__caption">
+                    <strong>Ganeha</strong><br />
+                    <span class="gallery__composition__caption--artist"
+                      >Artwork by Sunita</span
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer data-scroll id="foooter">
+        <div class="footer">
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="footer__subscribe">
+                <form>
+                  <span class="footer__subscribe__header"
+                    >Get latest updates<br
+                  /></span>
+                  <input
+                    class="footer__subscribe__e-input"
+                    type="email"
+                    placeholder="email@email.com"
+                  />
+                  <a href="#" class="btn__submit">Submit</a> <br />
+                </form>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="footer__social-media__header">Connect with us</div>
+              <div class="footer__social-media__icons">
+                <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="footer__contact-us">
+                <div class="footer__contact-us__header">
+                  <i class="fas fa-phone u-font-small"></i> Contact Us
+                </div>
+                <div class="footer__contact-us__phone">
+                  <div class="footer__contact-us__numbers-email">
+                    <div>
+                      <li class="footer_contact-us__numbers">
+                        +91 8240-239-280
+                      </li>
+                      <li class="footer_contact-us__numbers">
+                        +91 8240-239-280
+                      </li>
+                      <li class="footer_contact-us__numbers">
+                        +91 8961-360-541
+                      </li>
+                      <li class="footer_contact-us__numbers">
+                        explore.madhubani@gmail.com
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p style="color:rgb(165, 165, 165);">
+              Copyright &copy; by Apurba Kumar Haldar<br />
+              Department of Multimedia, Animation & Graphics <br />
+              NSHM Knowledge Campus<br />
+              Second Year, 2018 <br />
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!--
+      GRID SYSTEM
+      <section>
+
+        
+
+            
+
+            <div class="row">
+
+                <div class="col-1-of-2">
+
+                    col 1 of 2
+
+                </div>
+
+                <div class="col-1-of-2">
+
+                    col 1 of 2
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="row">
+
+                <div class="col-1-of-3">
+
+                    col 1 of 3
+
+                </div>
+
+                <div class="col-1-of-3">
+
+                    col 1 of 3
+
+                </div>
+
+                <div class="col-1-of-3">
+
+                    col 1 of 3
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+
+                <div class="col-1-of-3">
+
+                    col 1 of 3
+
+                </div>
+
+                <div class="col-2-of-3">
+
+                    col 2 of 3
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-2-of-4">
+
+                    col 2 of 4
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-4">
+
+                    col 1 of 4
+
+                </div>
+
+                <div class="col-3-of-4">
+
+                    col 3 of 4
+
+
+                </div>
+
+        </section>
+    -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/scroll-out/dist/scroll-out.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
